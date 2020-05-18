@@ -84,10 +84,10 @@ class Todo extends Component {
 
         <div className="Todo-buttons">
           <button onClick={this.toggleForm}>
-            <i class="fas fa-pen"></i>
+            <i className="fas fa-pen"></i>
           </button>
           <button onClick={this.handleDelete}>
-            <i class="fas fa-trash"></i>
+            <i className="fas fa-trash"></i>
           </button>
         </div>
       </div>
