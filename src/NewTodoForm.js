@@ -33,7 +33,8 @@ class NewTodoForm extends Component {
     return (
       <div className="NewTodoForm">
         <form onSubmit={this.handleSubmit}>
-          <label htmlFor="task">New Todo</label><br />
+          <label htmlFor="task">New To Do</label>
+          <br />
           <input
             type="text"
             id="task"
